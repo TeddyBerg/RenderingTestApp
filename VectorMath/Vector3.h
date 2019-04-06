@@ -1,6 +1,5 @@
-#include "Vector2.h"
-
 #pragma once
+#include "Vector2.h"
 
 class Vector3 {
 public:
@@ -8,7 +7,6 @@ public:
 
 	Vector3(double x = 0, double y = 0, double z = 0);
 	Vector3(Vector2 v);
-
 
 #pragma endregion
 
@@ -27,6 +25,4 @@ private:
 	double x_;
 	double y_;
 	double z_;
-
 };
-
